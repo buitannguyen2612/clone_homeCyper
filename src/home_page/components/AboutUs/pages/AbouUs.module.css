@@ -1,0 +1,147 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: #1a2038;
+}
+
+.background{
+    background-image: url("../images/bacground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.box_img
+{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+.box_img .imgtop{
+    display: flex;
+    gap: 30px;
+    align-items: flex-end;
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.image:nth-child(1){
+    height: 80%;
+    width: 380px;
+    border-radius: 10px;
+}
+
+.image:nth-child(2){
+    height: 25%;
+    width: 100px;
+    border-radius: 10px;
+}
+
+    .imagebottom{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.box_title{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding-left: 60px;
+    padding-top: 80px;
+}
+
+.title{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title p:nth-child(1){
+    color: #3285dc;
+    font-size: 18px;
+}
+
+.title h1{
+    font-size: 50px;
+    line-height: 1.1;
+    font-weight: 700;
+    color: white;
+}
+
+.text_under{
+    color: #72799c;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.list{
+    display: flex;
+    width: 100%;
+    color: #72799c;
+    font-size: 20px;
+}
+
+.listone{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.listone div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.listtwo{
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.listtwo div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon{
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: #ef8b33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_start{
+    background-color: #4aa5f0;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    height: 56px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 26px;
+    cursor: pointer;
+}

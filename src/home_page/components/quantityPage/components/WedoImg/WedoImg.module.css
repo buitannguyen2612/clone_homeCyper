@@ -6,10 +6,10 @@
     align-items: center;
 }
 
-.human{
-    background-image: url('/src/home_page/components/quantityPage/images/human.png');
+.image{
+    background-image: url('/src/home_page/components/quantityPage/images/virus.png');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 560px;
-    width: 501px;
+    height: 576px;
+    width: 524px;
 }

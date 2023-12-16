@@ -9,8 +9,6 @@
     height: 100vh;
     width: 100%;
     background-color: #222a45;
-    display: flex;
-    border: solid white;
 }
 
 .wedo{
@@ -19,3 +17,21 @@
     background-color: #222a45;
 }
 
+.wedo_background{
+    background-image: url('../images/bacgroundBot.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.hourback{
+    background-image: url('../images/bacground.png');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+
+}
